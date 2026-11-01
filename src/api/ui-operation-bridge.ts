@@ -90,7 +90,7 @@ export class UiOperationBridge extends EventEmitter {
     }
 
     isPaidUser(): boolean {
-        return this.primaryChannel?.user?.isPaidUser() ?? false;
+        return true;
     }
 
     /**
